@@ -7,7 +7,7 @@ int main(){
 	printf("Enter the 5 Names: \n");
 	for(int i=0;i<5;i++){
 		printf("\nName: %d", i+1);
-		scanf("%29s",names[i]);
+		scanf("%19s",names[i]);
 	}
 	int len[20];
 		for(int i=0;i<5;i++){
@@ -20,3 +20,4 @@ int main(){
 			printf("\nLongest Name is %s and its length is %d", names[index],max);
 	return 0;
 }
+
