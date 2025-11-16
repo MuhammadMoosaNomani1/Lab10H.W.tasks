@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 int main(){ 
 	char names[5][20]={{"Ayesha"},{"Ali"},{"Osman"},{"Roman"},{"Saif"}}; 
 
@@ -15,3 +16,4 @@ int main(){
 	else printf("\nName Found!");
 	return 0;
 }
+
